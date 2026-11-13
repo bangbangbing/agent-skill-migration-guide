@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#FDFBF7"/>
+  <text x="80" y="70" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="32" fill="#6A1B9A" font-weight="700">④ 关键陷阱 &amp; 避坑指南</text>
+  <!-- 陷阱卡片 -->
+  <rect x="60" y="100" width="960" height="280" rx="20" fill="#FFF3E0" stroke="#FFCC80" stroke-width="1.5"/>
+  <text x="100" y="155" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="24" fill="#E65100" font-weight="800">⚠️ 陷阱一：manifest 口径易混</text>
+  <text x="100" y="200" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#555">把「顶层实体目录」和「嵌套示例」混在一起报数，导致 56 vs 33 数字对不上。</text>
+  <text x="100" y="240" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#555">→ 修正：统一用 link --prune 的「跳过」计数，只统计顶层 skill 目录。</text>
+  <text x="100" y="350" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="24" fill="#E65100" font-weight="800">⚠️ 陷阱二：docx/pdf 误判为可回填</text>
+  <text x="100" y="395" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#555">初期以为找到 hermes/archive 下的 Nous Research 版即可回填，但 diff 后发现脚本集合不同，回填会断链。</text>
+  <text x="100" y="435" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#555">→ 修正：CLI 契约冲突场景一律判不了→保留在 archive，不动。</text>
+  <!-- 经验要点 -->
+  <rect x="60" y="560" width="960" height="240" rx="20" fill="#F3E5F5" stroke="#CE93D8" stroke-width="1.5"/>
+  <text x="100" y="615" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="24" fill="#6A1B9A" font-weight="800">💡 三个核心教训</text>
+  <text x="100" y="665" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333"><tspan fill="#6A1B9A" font-weight="700">1.</tspan> agent-reach 两代 CLI v1.5.0 vs router 模式命令体系不兼容，强行合并会输出不一致。策略：库内升 v1.5.0 权威版，旧代留在 archived/不动。</text>
+  <text x="100" y="715" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333"><tspan fill="#6A1B9A" font-weight="700">2.</tspan> v1.5.0 CLI skill --install 会把技能写成实体目录（绕过统一源），link --prune 因此跳过。必须在归档报告中标注这类「双源」风险项。</text>
+  <text x="100" y="765" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333"><tspan fill="#6A1B9A" font-weight="700">3.</tspan> 归档后第一时间跑 skillctl validate + git ls-files *.tgz，比事后排查省力十倍。</text>
+  <!-- 结尾呼吁 -->
+  <rect x="60" y="840" width="960" height="120" rx="20" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1.5"/>
+  <text x="540" y="885" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1565C0" font-weight="700">你的 Agent 目录下有移动硬盘般的 moved-aside 吗？</text>
+  <text x="540" y="925" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#666">这套方案已在 139 项真实场景中验证过，可直接套用</text>
+  <!-- 底部 -->
+  <text x="540" y="1390" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#BBB">第 5 页 / 共 6 页 · 完整版见 skill-migration-guide.md</text>
+</svg>

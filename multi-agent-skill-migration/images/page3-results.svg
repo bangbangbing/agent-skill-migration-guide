@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#FDFBF7"/>
+  <text x="80" y="70" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="32" fill="#1565C0" font-weight="700">③ 实操结果：真实数据复盘</text>
+  <!-- 概览卡片 -->
+  <rect x="60" y="100" width="960" height="180" rx="20" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1.5"/>
+  <text x="100" y="150" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1565C0" font-weight="700">归档日期</text>
+  <text x="280" y="150" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#333">2026-11-10</text>
+  <text x="100" y="200" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1565C0" font-weight="700">归档总量</text>
+  <text x="280" y="200" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="28" fill="#1565C0" font-weight="800">139 项</text>
+  <text x="540" y="150" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1565C0" font-weight="700">第一批（WB+OC）</text>
+  <text x="780" y="150" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#333">132 项</text>
+  <text x="540" y="200" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1565C0" font-weight="700">第二批（rest）</text>
+  <text x="780" y="200" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#333">7 项</text>
+  <!-- 分类表格 -->
+  <rect x="60" y="310" width="960" height="380" rx="20" fill="#FFF" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="540" y="355" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#333" font-weight="700">分类裁决结果</text>
+  <line x1="100" y1="375" x2="980" y2="375" stroke="#EEE" stroke-width="1"/>
+  <!-- 表头 -->
+  <text x="120" y="415" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#888" font-weight="600">类别</text>
+  <text x="360" y="415" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#888" font-weight="600">数量</text>
+  <text x="560" y="415" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#888" font-weight="600">处置方式</text>
+  <text x="820" y="415" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#888" font-weight="600">状态</text>
+  <line x1="100" y1="435" x2="980" y2="435" stroke="#EEE" stroke-width="1"/>
+  <!-- 行1 -->
+  <text x="120" y="480" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#2D6A4F" font-weight="700">🟢 已确认纳管</text>
+  <text x="360" y="480" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#333">92</text>
+  <text x="560" y="480" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#666">随 tgz 一并归档，标记为重复副本处理</text>
+  <text x="860" y="480" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#2D6A4F">✓ 已归档</text>
+  <!-- 行2 -->
+  <text x="120" y="530" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#2D6A4F" font-weight="700">🟢 重复副本</text>
+  <text x="360" y="530" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#333">40</text>
+  <text x="560" y="530" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#666">与库内技能正文一致或子集</text>
+  <text x="860" y="530" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#2D6A4F">✓ 已归档</text>
+  <!-- 行3 -->
+  <text x="120" y="580" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#E65100" font-weight="700">🟠 已裁决不收编待查</text>
+  <text x="360" y="580" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#333">1</text>
+  <text x="560" y="580" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#666">版本冲突，保留至归档原地不动</text>
+  <text x="860" y="580" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#E65100">保留中</text>
+  <!-- 行4 -->
+  <text x="120" y="630" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#888" font-weight="700">⚪ 已判定空壳</text>
+  <text x="360" y="630" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#333">2</text>
+  <text x="560" y="630" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#666">frontmatter 后正文为空，不收编</text>
+  <text x="860" y="630" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#888">已归档</text>
+  <!-- 校验结果卡片 -->
+  <rect x="60" y="720" width="960" height="260" rx="20" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="1.5"/>
+  <text x="100" y="770" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#2D6A4F" font-weight="700">校验结果 · 全部通过 ✅</text>
+  <text x="100" y="820" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333">· WB tgz 顶层目录数：125 ✓ | OC tgz：7 ✓ | rest tgz：7 ✓</text>
+  <text x="100" y="860" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333">· manifest 数据行总数：139（含注释头分别对齐）</text>
+  <text x="100" y="900" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333">· tree_hash 抽样（≥5项）：全部一致 ✓ | registry.json 命中：0 ✓</text>
+  <text x="100" y="940" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333">· git clean：无意外变更 ✓ | tgz 未混入仓库 ✓</text>
+  <text x="100" y="970" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#333">· 原件：全程未删除任何文件 ✓</text>
+  <!-- 底部提示 -->
+  <text x="540" y="1390" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#BBB">第 4 页 / 共 6 页</text>
+</svg>

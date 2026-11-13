@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8F0"/>
+      <stop offset="100%" stop-color="#FFE8D6"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景 -->
+  <rect width="1080" height="1440" fill="url(#bg)" rx="0"/>
+  <!-- 装饰圆点 -->
+  <circle cx="960" cy="180" r="80" fill="#FF6B35" opacity="0.12"/>
+  <circle cx="120" cy="1260" r="120" fill="#FF6B35" opacity="0.08"/>
+  <circle cx="900" cy="1100" r="60" fill="#2D6A4F" opacity="0.08"/>
+  <!-- 主卡片 -->
+  <rect x="60" y="100" width="960" height="700" rx="32" fill="#FFFFFF"/>
+  <!-- 顶部色条 -->
+  <rect x="60" y="100" width="960" height="8" rx="32" fill="#FF6B35"/>
+  <rect x="60" y="108" width="960" height="8" fill="#FF6B35"/>
+  <!-- 小标签 -->
+  <rect x="120" y="180" width="220" height="48" rx="24" fill="#FFF0E8"/>
+  <text x="230" y="212" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#FF6B35" font-weight="600">技术干货 · 亲测</text>
+  <!-- 主标题 -->
+  <text x="120" y="310" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="64" fill="#1A1A1A" font-weight="800">多个 Agent</text>
+  <text x="120" y="395" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="64" fill="#1A1A1A" font-weight="800">共用技能库？</text>
+  <!-- 副标题 -->
+  <text x="120" y="500" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="36" fill="#666666">一套可复用的迁移归档方案</text>
+  <!-- 关键词高亮块 -->
+  <rect x="120" y="560" width="180" height="60" rx="12" fill="#FF6B35"/>
+  <text x="210" y="598" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="26" fill="#FFF" font-weight="700">唯一源原则</text>
+  <rect x="320" y="560" width="180" height="60" rx="12" fill="#2D6A4F"/>
+  <text x="410" y="598" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="26" fill="#FFF" font-weight="700">树哈希校验</text>
+  <rect x="520" y="560" width="180" height="60" rx="12" fill="#1A1A1A"/>
+  <text x="610" y="598" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="26" fill="#FFF" font-weight="700">139项无删档</text>
+  <!-- 底部说明 -->
+  <text x="120" y="720" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#999">📌 附：实操步骤图 + 决策流程图</text>
+  <!-- 中部插图区 -->
+  <rect x="60" y="850" width="960" height="400" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+  <text x="540" y="910" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="28" fill="#FF6B35" font-weight="600">多 Agent → 统一权威源 → 安全归档</text>
+  <!-- Agent 图标简化示意 -->
+  <g transform="translate(140,970)">
+    <rect width="140" height="80" rx="16" fill="#FFF0E8" stroke="#FF6B35" stroke-width="2"/>
+    <text x="70" y="48" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="20" fill="#FF6B35" font-weight="600">Claude</text>
+  </g>
+  <g transform="translate(320,970)">
+    <rect width="140" height="80" rx="16" fill="#FFF0E8" stroke="#FF6B35" stroke-width="2"/>
+    <text x="70" y="48" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="20" fill="#FF6B35" font-weight="600">OpenClaw</text>
+  </g>
+  <g transform="translate(500,970)">
+    <rect width="140" height="80" rx="16" fill="#FFF0E8" stroke="#FF6B35" stroke-width="2"/>
+    <text x="70" y="48" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="20" fill="#FF6B35" font-weight="600">WorkBuddy</text>
+  </g>
+  <g transform="translate(680,970)">
+    <rect width="140" height="80" rx="16" fill="#FFF0E8" stroke="#FF6B35" stroke-width="2"/>
+    <text x="70" y="48" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="20" fill="#FF6B35" font-weight="600">+ 其他 agent</text>
+  </g>
+  <!-- 箭头向下 -->
+  <path d="M540 1070 L540 1130 M520 1110 L540 1140 L560 1110" stroke="#2D6A4F" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 统一源框 -->
+  <g transform="translate(340,1140)">
+    <rect width="400" height="90" rx="20" fill="#2D6A4F"/>
+    <text x="200" y="40" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="24" fill="#FFF" font-weight="700">~/.agents/skill-lib/</text>
+    <text x="200" y="70" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#C8E6C9">统一权威源（软链加载）</text>
+  </g>
+  <!-- 右侧结果框 -->
+  <g transform="translate(800,1070)">
+    <rect width="200" height="160" rx="16" fill="#F1F8E9" stroke="#2D6A4F" stroke-width="2"/>
+    <text x="100" y="40" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#2D6A4F" font-weight="700">✅ 实际效果</text>
+    <text x="100" y="75" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#555">139 项全部归档</text>
+    <text x="100" y="100" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#555">registry 零命中</text>
+    <text x="100" y="125" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#555">原件完整保留</text>
+    <text x="100" y="150" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="16" fill="#555">git 仓库干净</text>
+  </g>
+  <!-- 底部 -->
+  <text x="540" y="1360" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#AAA">⬇️ 下页：完整解决方案 &amp; ⬅️ 点赞收藏备用</text>
+</svg>

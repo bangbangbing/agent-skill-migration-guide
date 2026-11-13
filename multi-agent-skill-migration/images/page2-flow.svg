@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#FDFBF7"/>
+  <text x="80" y="70" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="32" fill="#2D6A4F" font-weight="700">② 解法：标准化归档六步流程</text>
+  <!-- 流程步骤 -->
+  <g transform="translate(80,120)">
+    <!-- Step 1 -->
+    <circle cx="40" cy="40" r="36" fill="#FF6B35"/>
+    <text x="40" y="50" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="28" fill="#FFF" font-weight="800">1</text>
+    <text x="95" y="35" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1A1A1A" font-weight="700">扫描 + 全量清点</text>
+    <text x="95" y="62" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#666">find ~/skills-moved-aside + 各 agent 目录</text>
+    <!-- 连线 -->
+    <line x1="40" y1="76" x2="40" y2="115" stroke="#DDD" stroke-width="2"/>
+  </g>
+  <g transform="translate(80,240)">
+    <circle cx="40" cy="40" r="36" fill="#FF6B35"/>
+    <text x="40" y="50" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="28" fill="#FFF" font-weight="800">2</text>
+    <text x="95" y="35" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1A1A1A" font-weight="700">分类裁决（四色标记）</text>
+    <text x="95" y="62" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#666">🟢纳管 · 🟠待查 · ⚪空壳 · ✗重复</text>
+    <line x1="40" y1="76" x2="40" y2="115" stroke="#DDD" stroke-width="2"/>
+  </g>
+  <g transform="translate(80,480)">
+    <circle cx="40" cy="40" r="36" fill="#FF6B35"/>
+    <text x="40" y="50" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="28" fill="#FFF" font-weight="800">3</text>
+    <text x="95" y="35" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1A1A1A" font-weight="700">可移性三重检查</text>
+    <text x="95" y="62" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#666">断链复核 + registry.json 命中检测 + .dist/current 引用确认</text>
+    <line x1="40" y1="76" x2="40" y2="115" stroke="#DDD" stroke-width="2"/>
+  </g>
+  <g transform="translate(80,720)">
+    <circle cx="40" cy="40" r="36" fill="#FF6B35"/>
+    <text x="40" y="50" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="28" fill="#FFF" font-weight="800">4</text>
+    <text x="95" y="35" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1A1A1A" font-weight="700">打包归档（manifest + sha256 + tgz）</text>
+    <text x="95" y="62" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#666">两阶段：WB/OC 第一批 → rest 第二批，各自独立 manifest</text>
+    <line x1="40" y1="76" x2="40" y2="115" stroke="#DDD" stroke-width="2"/>
+  </g>
+  <g transform="translate(80,960)">
+    <circle cx="40" cy="40" r="36" fill="#FF6B35"/>
+    <text x="40" y="50" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="28" fill="#FFF" font-weight="800">5</text>
+    <text x="95" y="35" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1A1A1A" font-weight="700">tree_hash 抽样验证</text>
+    <text x="95" y="62" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#666">解压后比对 ≥ 5 项原始 tree_hash，确保一致性</text>
+    <line x1="40" y1="76" x2="40" y2="115" stroke="#DDD" stroke-width="2"/>
+  </g>
+  <g transform="translate(80,1200)">
+    <circle cx="40" cy="40" r="36" fill="#2D6A4F"/>
+    <text x="40" y="50" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="28" fill="#FFF" font-weight="800">6</text>
+    <text x="95" y="35" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#1A1A1A" font-weight="700">更新文档 + git commit + 仓库清洁确认</text>
+    <text x="95" y="62" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#666">moved-aside-inventory.md + git ls-files '*.tgz' 为空</text>
+  </g>
+  <!-- 底部提示 -->
+  <rect x="80" y="1310" width="920" height="60" rx="12" fill="#E8F5E9" stroke="#A5D6A7" stroke-width="1"/>
+  <text x="540" y="1348" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="18" fill="#2E7D32">💡 每步都有对应 bash 脚本片段，见完整指南</text>
+  <text x="540" y="1395" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#BBB">第 3 页 / 共 6 页</text>
+</svg>

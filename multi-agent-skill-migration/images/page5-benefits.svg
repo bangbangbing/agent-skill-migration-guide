@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1440" fill="#FDFBF7"/>
+  <!-- 主卡片 -->
+  <rect x="60" y="80" width="960" height="520" rx="28" fill="url(#cardGrad)" stroke="#A5D6A7" stroke-width="2"/>
+  <text x="540" y="150" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="32" fill="#2E7D32" font-weight="800">为什么你需要关注这件事？</text>
+  <!-- 四个利益点 -->
+  <g transform="translate(100,200)">
+    <rect width="380" height="140" rx="16" fill="#FFF" opacity="0.85"/>
+    <text x="30" y="45" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#2E7D32" font-weight="700">🔒 数据安全</text>
+    <text x="30" y="80" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">所有归档均有 sha256 + manifest</text>
+    <text x="30" y="105" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">原件全程保留，可随时回滚提取</text>
+    <text x="30" y="130" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">不会误删任何正在使用的技能</text>
+  </g>
+  <g transform="translate(520,200)">
+    <rect width="380" height="140" rx="16" fill="#FFF" opacity="0.85"/>
+    <text x="30" y="45" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#2E7D32" font-weight="700">⚡ 效率提升</text>
+    <text x="30" y="80" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">139 项技能，一天内完成归档</text>
+    <text x="30" y="105" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">tree_hash 自动校验免去人工核对</text>
+    <text x="30" y="130" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">skillctl.py 工具链支持批量操作</text>
+  </g>
+  <g transform="translate(100,370)">
+    <rect width="380" height="140" rx="16" fill="#FFF" opacity="0.85"/>
+    <text x="30" y="45" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#2E7D32" font-weight="700">🧹 仓库整洁</text>
+    <text x="30" y="80" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">git clean 零意外变更是硬指标</text>
+    <text x="30" y="105" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">tgz 产物绝不出现在仓库内</text>
+    <text x="30" y="130" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">每次归档后立即写文档并 commit</text>
+  </g>
+  <g transform="translate(520,370)">
+    <rect width="380" height="140" rx="16" fill="#FFF" opacity="0.85"/>
+    <text x="30" y="45" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="22" fill="#2E7D32" font-weight="700">🔄 标准复用</text>
+    <text x="30" y="80" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">本方案已提炼为可复用 SOP 文档</text>
+    <text x="30" y="105" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">适合 3+ 个 Agent 并存的技术用户</text>
+    <text x="30" y="130" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#555">直接拷贝 bash 片段即可开始</text>
+  </g>
+  <!-- 底部行动按钮感文字 -->
+  <rect x="240" y="650" width="600" height="80" rx="40" fill="#FF6B35"/>
+  <text x="540" y="702" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="26" fill="#FFF" font-weight="800">收藏本文 + 查看完整指南 ↓</text>
+  <!-- 关联链接 -->
+  <rect x="60" y="770" width="960" height="100" rx="16" fill="#FFF" stroke="#E0E0E0" stroke-width="1.5"/>
+  <text x="100" y="820" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="20" fill="#333" font-weight="700">📄 完整方案文档</text>
+  <text x="100" y="855" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK',sans-serif" font-size="16" fill="#888">skill-migration-guide.md · v1.0 · 2026-11-12 · 628 行实战提炼</text>
+  <!-- 底部 -->
+  <text x="540" y="1390" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif" font-size="18" fill="#BBB">第 6 页（终页）· 有问题欢迎评论区交流</text>
+</svg>
